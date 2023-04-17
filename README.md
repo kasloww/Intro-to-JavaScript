@@ -1,1 +1,1 @@
-# Intro-to-JavaScript
+# just another javascript ;)
