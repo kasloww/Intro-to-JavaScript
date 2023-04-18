@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta https-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+<body>
+    <p id="my_paragraph">
+        AYOOOO
+    </p>
+
+    <button onclick="changeStyle()">Click me pls</button>
+    <p></p>
+
+    <hr>
+   When click, counter begin
+    
+    <button onclick="addCounter()" id="counter_button">0</button>
+    <hr>
+    <input id="my_input">
+    <button id="input_button" onclick="inputButton()">Don't Click Me 😳</button>
+    <hr>
+    Who do you think is winning in the playoffs?
+    <br>
+    <p></p>
+    <input id="my_input">
+    <button id="secret_button" onclick="secretButton()">SUbmit.</button>
+    <hr>
+    <script lang="js">
+        document.write("Nah bro off it")
+        document.write("<h1>NAHHHHH</h1>")
+
+        let myParagraph = document.getElementById("myParagraph")
+
+        myParagraph.innerHTML = 'This was modified using JS'
+
+        function changeStyle () {
+            let myParagraph = document.getElementById("my_paragraph")
+            myParagraph.innerHTML = 'This was modified using JS'
+            myParagraph.style = 'background: purple; color: pink'
+            alert("AYE! This is how JavaScript works.")
+        }
+        let counter = 0
+
+        function addCounter () {
+            counter = counter + 1
+            let counterButton = document.getElementById("counter_button")
+            counterButton.innerHTML = counter
+        }
+        
+        function inputButton () {
+            let myInput = document.getElementById("my_input")
+            console.log(myInput.value)
+        }
+
+        function secretButton () {
+            if (secretButton == "Warriors"){
+                window.location = 'https://nba.com'
+            } else {
+                document.write("WRONG.")
+            }
+            
+        }
+    </script>
+</body>
+</html>
