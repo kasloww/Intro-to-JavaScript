@@ -5,14 +5,22 @@
         <meta https-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="stopwatch.css">
+        <title>Stopwatch</title>
     </head>
 <body>
-    <h1 class="center">Stopwatch</h1>
+    <h1 class="center">A Stopwatch.</h1>
     <hr>
     <h2 id="digits" class="center">00:00:00</h2>
-    <button onclick="start()">Start.</button>
+<div class="buttons">
+    <button onclick="start()" id="start-btn">Start.</button> 
     <button onclick="stop()">Stop.</button>
     <button onclick="reset()">Reset.</button>
+    <button onclick="addlap()">Add Lap.</button>
+</div>
+<p class="center">
+    <ol id="laps">
+    </ol>
+</p>
     <script src="stopwatch.js"></script>
 </body>
 </html>
