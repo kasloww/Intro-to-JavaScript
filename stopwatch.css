@@ -1,4 +1,33 @@
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .center {
     text-align: center;
 }
 
+.buttons {
+    text-align: center;
+}
+
+button {
+    background-color:blueviolet;
+    color:azure;
+    padding: 1%;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Instrument Serif', serif;
+}
+
+button:hover {
+    background-color:darkorchid;
+}
+
+button:disabled {
+    cursor: not-allowed;
+}
