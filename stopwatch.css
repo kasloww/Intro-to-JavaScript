@@ -1,10 +1,13 @@
 
 h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color:darkorchid;
+    color: azure;
 }
 
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration:underline
 }
 
 .center {
@@ -30,4 +33,5 @@ button:hover {
 
 button:disabled {
     cursor: not-allowed;
+    background-color: black;
 }
